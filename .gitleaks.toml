@@ -1,6 +1,10 @@
 title = "Gitleaks configuration for Bird Project"
 
 
+[allowlist]
+paths = ["illuminati_frontend/tests/*"]
+
+
 
 [[rules]]
 id = "ssh-private-key"
